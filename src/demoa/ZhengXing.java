@@ -9,6 +9,7 @@ public class ZhengXing {
 		int num = 10;// 声明一个整形变量
 		// 10是一个整数（不会被改变的数据是常量）
 		// 程序之中任何一个整数对应的类型都是int
+		//
 
 		// ------------------------------------------
 
@@ -54,11 +55,32 @@ public class ZhengXing {
 
 		long result2 = (long) maxValue + 1;
 		System.out.println(result2);
-		
-		
-		//数据范围大的类型变为数据范围小的类型需要强制类型转换，强制会损失精度（丢内容）
+
+		// 数据范围大的类型变为数据范围小的类型需要强制类型转换，强制会损失精度（丢内容）
 		long num2 = 2147483648L;
-		//任何整数其默认类型都是int，但是该数据已经超过了int可以保存的数据范围
-		System.out.println(num2);
+		// 任何整数其默认类型都是int，但是2147483648已经超过了int可以保存的数据范围
+		// 加L/l可以表示一个long型的常量，L比较好，防止和1混淆
+		System.out.println("");
+		System.out.println("强制类型转换：");
+		int result3 = (int) num2;// 开发中尽量避免
+		System.out.println(result3);
+		System.out.println("---------------------------");
+		// 之前说过所有的数据类型都有默认值，但是这个默认值在方法的声明中无效
+		// int num3 ;此时输出num会报错（可能尚未初始化变量）
+		// num3 = 10 ;在老版本的jdk里会出错
+		// 最好的方法就是在变量声明的时候声明默认值 int num3 = 10 ;
+
+		// byte数据类型可以保存的范围是-128~127，常用在二进制流和编码转换
+		byte data = 20;// 20是int类型常量,int的数据范围大于byte，按理讲需要强制类型转换
+						// 但是其数据量在byte范围内，所以没有强制类型转换
+		System.out.println(data);
+		byte data1 = (byte) 128;// 此时没有强转会报错（不兼容类型）
+		System.out.println(data1);// 此时数据溢出，进入“循环”成最小值
+
+		// 此时注意：如果想让int常量直接赋值给byte变量（数据量在byte范围内），那么只能够使常量，而不能是int变量
+		// int num = 20 ；
+		// byte data = num ； 此时没有强转会报错（不兼容类型）
+		// System.out.println(data)；
+
 	}
 }
