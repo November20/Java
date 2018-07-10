@@ -72,10 +72,10 @@ public class ZhengXing {
 
 		// byte数据类型可以保存的范围是-128~127，常用在二进制流和编码转换
 		byte data = 20;// 20是int类型常量,int的数据范围大于byte，按理讲需要强制类型转换
-						// 但是其数据量在byte范围内，所以没有强制类型转换
+					   // 但是其数据量在byte范围内，所以没有强制类型转换
 		System.out.println(data);
 		byte data1 = (byte) 128;// 此时没有强转会报错（不兼容类型）
-		System.out.println(data1);// 此时数据溢出，进入“循环”成最小值
+		System.out.println(data1);// 此时数据溢出，“循环”成最小值
 
 		// 此时注意：如果想让int常量直接赋值给byte变量（数据量在byte范围内），那么只能够使常量，而不能是int变量
 		// int num = 20 ；

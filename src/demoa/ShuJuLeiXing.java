@@ -5,8 +5,8 @@ public class ShuJuLeiXing {
 		//java的数据类型一共分为两大类：
 		//·基本数据类型
 		//	数值型：表示整数或小数
-		//  	整形：byte、short、int、long; -默认值：0
-		//		浮点型：float、double;       -默认值：0.0
+		//  	 整型：byte、short、int、long; -默认值：0
+		//		 浮点型：float、double;       -默认值：0.0
 		//	字符型：char;                    -默认值：\u0000
 		//	布尔型：boolean;                 -默认值：false
 		
