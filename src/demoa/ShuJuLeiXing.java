@@ -2,23 +2,23 @@ package demoa;
 
 public class ShuJuLeiXing {
 	public static void main(String[] args) {
-		//javaµÄÊý¾ÝÀàÐÍÒ»¹²·ÖÎªÁ½´óÀà£º
-		//¡¤»ù±¾Êý¾ÝÀàÐÍ
-		//	ÊýÖµÐÍ£º±íÊ¾ÕûÊý»òÐ¡Êý
-		//  	 ÕûÐÍ£ºbyte¡¢short¡¢int¡¢long; -Ä¬ÈÏÖµ£º0
-		//		 ¸¡µãÐÍ£ºfloat¡¢double;       -Ä¬ÈÏÖµ£º0.0
-		//	×Ö·ûÐÍ£ºchar;                    -Ä¬ÈÏÖµ£º\u0000
-		//	²¼¶ûÐÍ£ºboolean;                 -Ä¬ÈÏÖµ£ºfalse
+		//javaçš„æ•°æ®ç±»åž‹ä¸€å…±åˆ†ä¸ºä¸¤å¤§ç±»ï¼š
+		//Â·åŸºæœ¬æ•°æ®ç±»åž‹
+		//	æ•°å€¼åž‹ï¼šè¡¨ç¤ºæ•´æ•°æˆ–å°æ•°
+		//  	         æ•´åž‹ï¼šbyteã€shortã€intã€long; -é»˜è®¤å€¼ï¼š0
+		//		      æµ®ç‚¹åž‹ï¼šfloatã€double;       -é»˜è®¤å€¼ï¼š0.0
+		//	å­—ç¬¦åž‹ï¼šchar;                    -é»˜è®¤å€¼ï¼š\u0000
+		//	å¸ƒå°”åž‹ï¼šboolean;                 -é»˜è®¤å€¼ï¼šfalse
 		
 		
-		//¡¤ÒýÓÃÊý¾ÝÀàÐÍ£ºÊý×é¡¢Àà¡¢½Ó¿Ú ;                          -Ä¬ÈÏÖµ£ºnull
+		//Â·å¼•ç”¨æ•°æ®ç±»åž‹ï¼šæ•°ç»„ã€ç±»ã€æŽ¥å£ ;                          -é»˜è®¤å€¼ï¼šnull
 		
 		//--------------------------------------------
-		//Êý¾ÝÀàÐÍÑ¡Ôñ½¨Òé
-		//¡¤ÔÚ³ÌÐò¿ª·¢Ö®ÖÐ±íÊ¾ÕûÊý¾ÍÊ¹ÓÃint£¬ÃèÊöÐ¡Êý¾ÍÊ¹ÓÃdouble;
-		//¡¤longÕâÖÖÊý¾ÝÀàÐÍÒ»°ã»áÃèÊöÈÕÆÚÊ±¼ä¡¢ÄÚ´æ»òÎÄ¼þ´óÐ¡£¨×Ö½Ú£©;
-		//¡¤Èç¹ûÐèÒª½øÐÐ±àÂë×ª»»»òÕß½øÐÐ¶þ½øÖÆÊý¾Ý´«Êä£¬Ê¹ÓÃbyte(-128~127);
-		//¡¤charÒ»°ãÔÚÃèÊöÖÐÎÄµÄÊ±ºòÊ¹ÓÃµ½¡£
-		//¡¤booleanÔÚÃèÊö³ÌÐòÂß¼­µÄÊ±ºòÊ¹ÓÃ
+		//æ•°æ®ç±»åž‹é€‰æ‹©å»ºè®®
+		//Â·åœ¨ç¨‹åºå¼€å‘ä¹‹ä¸­è¡¨ç¤ºæ•´æ•°å°±ä½¿ç”¨intï¼Œæè¿°å°æ•°å°±ä½¿ç”¨double;
+		//Â·longè¿™ç§æ•°æ®ç±»åž‹ä¸€èˆ¬ä¼šæè¿°æ—¥æœŸæ—¶é—´ã€å†…å­˜æˆ–æ–‡ä»¶å¤§å°ï¼ˆå­—èŠ‚ï¼‰;
+		//Â·å¦‚æžœéœ€è¦è¿›è¡Œç¼–ç è½¬æ¢æˆ–è€…è¿›è¡ŒäºŒè¿›åˆ¶æ•°æ®ä¼ è¾“ï¼Œä½¿ç”¨byte(-128~127);
+		//Â·charä¸€èˆ¬åœ¨æè¿°ä¸­æ–‡çš„æ—¶å€™ä½¿ç”¨åˆ°ã€‚
+		//Â·booleanåœ¨æè¿°ç¨‹åºé€»è¾‘çš„æ—¶å€™ä½¿ç”¨
 	}
 }

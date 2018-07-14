@@ -1,35 +1,35 @@
 package demoa;
-//Ç³Ì¸£º¿ª·¢ÖÐ»áÊ¹ÓÃµ½×Ö·ûÐÍµÄ¸ÅÄî£¬µ«ÊÇÕæÕýÈ¥²Ù×÷×Ö·ûÐÍµÄÇé¿ö²¢²»¶à
-//×Ö·ûÐÍÊ¹ÓÃchar±íÊ¾£¬¶øÇÒÊ¹ÓÃµ¥ÒýºÅÀ´ÉùÃ÷×Ö·ûÐÍµÄ×Ö·û±äÁ¿µÄÄÚÈÝ£¬
-//Í¬Ê±×Ö·ûÐÍ¿ÉÒÔÓëint»¥Ïà×ª»»
+//æµ…è°ˆï¼šå¼€å‘ä¸­ä¼šä½¿ç”¨åˆ°å­—ç¬¦åž‹çš„æ¦‚å¿µï¼Œä½†æ˜¯çœŸæ­£åŽ»æ“ä½œå­—ç¬¦åž‹çš„æƒ…å†µå¹¶ä¸å¤š
+//å­—ç¬¦åž‹ä½¿ç”¨charè¡¨ç¤ºï¼Œè€Œä¸”ä½¿ç”¨å•å¼•å·æ¥å£°æ˜Žå­—ç¬¦åž‹çš„å­—ç¬¦å˜é‡çš„å†…å®¹ï¼Œ
+//åŒæ—¶å­—ç¬¦åž‹å¯ä»¥ä¸Žintäº’ç›¸è½¬æ¢
 public class ZiFuXing {
 	public static void main(String[] args) {
-		char c = 'A'; //¶¨ÒåÁË×Ö·û
+		char c = 'A'; //å®šä¹‰äº†å­—ç¬¦
 		System.out.println(c+"\n");
-		//ÔÚÕû¸ö×Ö·ûÐÍµÄ´¦ÀíÖ®ÖÐ£¬×îÂé·³µÄ²¿·ÖÔÚÓÚÆä¿ÉÒÔÓëÕûÐÎ£¨int£©»¥Ïà×ª»»
-		//ËùÓÐµÄ×Ö·ûÔÚ³ÌÐòÖ®ÖÐ¶¼ÊÇÍ¨¹ý±àÂëÃèÊöµÄ£¬ËùÒÔchar±äÁ¿±äÎªintÄÚÈÝ
-		//µÄÊ±ºòÆäËù°üº¬µÄ¾ÍÊÇ±àÂë
-		System.out.println("char±äÎªintµÄÄÚÈÝ£º");
+		//åœ¨æ•´ä¸ªå­—ç¬¦åž‹çš„å¤„ç†ä¹‹ä¸­ï¼Œæœ€éº»çƒ¦çš„éƒ¨åˆ†åœ¨äºŽå…¶å¯ä»¥ä¸Žæ•´å½¢ï¼ˆintï¼‰äº’ç›¸è½¬æ¢
+		//æ‰€æœ‰çš„å­—ç¬¦åœ¨ç¨‹åºä¹‹ä¸­éƒ½æ˜¯é€šè¿‡ç¼–ç æè¿°çš„ï¼Œæ‰€ä»¥charå˜é‡å˜ä¸ºintå†…å®¹
+		//çš„æ—¶å€™å…¶æ‰€åŒ…å«çš„å°±æ˜¯ç¼–ç 
+		System.out.println("charå˜ä¸ºintçš„å†…å®¹ï¼š");
 		int num = c ;
 		System.out.println(num+"\n");
-		//³£ÓÃ·¶Î§£º´óÐ´×ÖÄ¸£¨A~Z£©£º65~90
-		//        Ð¡Ð´×ÖÄ¸£¨a~z£©£º97~122
-		//´óÐ´×ÖÄ¸ºÍÐ¡Ð´×ÖÄ¸Ö®¼ä²îÁË32¸ö³¤¶È
-		//×Ö·ûÊý×Ö'0'~'9':48~57
+		//å¸¸ç”¨èŒƒå›´ï¼šå¤§å†™å­—æ¯ï¼ˆA~Zï¼‰ï¼š65~90
+		//        å°å†™å­—æ¯ï¼ˆa~zï¼‰ï¼š97~122
+		//å¤§å†™å­—æ¯å’Œå°å†™å­—æ¯ä¹‹é—´å·®äº†32ä¸ªé•¿åº¦
+		//å­—ç¬¦æ•°å­—'0'~'9':48~57
 		
-		System.out.println("ÊµÏÖ´óÐ´×ÖÄ¸±äÐ¡Ð´×ÖÄ¸£º");
+		System.out.println("å®žçŽ°å¤§å†™å­—æ¯å˜å°å†™å­—æ¯ï¼š");
 		int num1 = c + 32 ;
-		//cÊÇ×Ö·û±äÁ¿£¨±äÎªintÐÍ£©+int³£Á¿=intÀàÐÍ
-		//½«intÐÍµÄÄÚÈÝÇ¿ÖÆ×ª»»ÎªcharÀàÐÍ
+		//cæ˜¯å­—ç¬¦å˜é‡ï¼ˆå˜ä¸ºintåž‹ï¼‰+intå¸¸é‡=intç±»åž‹
+		//å°†intåž‹çš„å†…å®¹å¼ºåˆ¶è½¬æ¢ä¸ºcharç±»åž‹
 		char x = (char)num1;
 		System.out.println(x+"\n");
 		
-		//JavaÊ¹ÓÃµÄÊÇUNICODE±àÂë£¬ÕâÖÖ±àÂë°üº¬ÓÐASCIIÂëµÄ²¿·ÖÄÚÈÝ£¬µ«ÊÇËüËù°üº¬µÄ±àÂëÓÖ¶àÓÚASCIIÂë
-		//Í¬Ê±UNICODEÊ¹ÓÃÊ®Áù½øÖÆ±àÂë£¬Õâ¸ö±àÂë¿ÉÒÔ±£³ÖÈÎºÎµÄÎÄ×ÖÐÅÏ¢£¬°üÀ¨ÖÐÎÄ£¨ÀàÃû¡¢±äÁ¿Ãû¶¼¿ÉÒÔÓÃÖÐÎÄ£©
-		System.out.println("È¤Î¶²âÊÔ£º");
-		char Íõ = 'Íõ';
-		int ¾Á = Íõ +32;
-		Íõ = (char)¾Á;
-		System.out.println(Íõ);
+		//Javaä½¿ç”¨çš„æ˜¯UNICODEç¼–ç ï¼Œè¿™ç§ç¼–ç åŒ…å«æœ‰ASCIIç çš„éƒ¨åˆ†å†…å®¹ï¼Œä½†æ˜¯å®ƒæ‰€åŒ…å«çš„ç¼–ç åˆå¤šäºŽASCIIç 
+		//åŒæ—¶UNICODEä½¿ç”¨åå…­è¿›åˆ¶ç¼–ç ï¼Œè¿™ä¸ªç¼–ç å¯ä»¥ä¿æŒä»»ä½•çš„æ–‡å­—ä¿¡æ¯ï¼ŒåŒ…æ‹¬ä¸­æ–‡ï¼ˆç±»åã€å˜é‡åéƒ½å¯ä»¥ç”¨ä¸­æ–‡ï¼‰
+		System.out.println("è¶£å‘³æµ‹è¯•ï¼š");
+		char çŽ‹ = 'çŽ‹';
+		int çŽ– = çŽ‹ +32;
+		çŽ‹ = (char)çŽ–;
+		System.out.println(çŽ‹);
 	}
 }
