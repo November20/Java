@@ -20,7 +20,17 @@ public class Git {
 	// checkout   校验
 	
 	// commit object   提交对象
-	//Fast-forward     快进
+	// Fast-forward     快进
+	// shared repository  共享的仓库
+	// developer  开发者
+	// blessed repository  神圣的仓库
+	// integration manager  整合经理
+    // developer public   开发者公共仓库
+    // developer private  开发者私有仓库
+	//  dictator  独裁者
+	//  lieutenant  副官
+	//  trailing whitespace  尾随空白
+	//
 
 	// git add 命令。这是个多功能命令：
 	// 可以用它开始跟踪新文件，或者把已跟踪的文件放到暂存区，
